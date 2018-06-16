@@ -41,13 +41,78 @@ Apart from the signals mentioned above, some variables also used are:
 ## Results of execution
 
 ### Writing 10 numbers to queue and reading them:
-![Writing 10 numbers to queue and reading them](screenshots/fifo_10.png)
+```
+$ ./fifo.out 
+VCD info: dumpfile fifo.vcd opened for output.
+                   0|RW=x, Data_IN=         x, FIFO_Data_Out=         x
+                   1|RW=0, Data_IN=         1, FIFO_Data_Out=         x
+                   3|RW=0, Data_IN=         2, FIFO_Data_Out=         x
+                   5|RW=0, Data_IN=         3, FIFO_Data_Out=         x
+                   7|RW=0, Data_IN=         4, FIFO_Data_Out=         x
+                   9|RW=0, Data_IN=         5, FIFO_Data_Out=         x
+                  11|RW=0, Data_IN=         6, FIFO_Data_Out=         x
+                  13|RW=0, Data_IN=         7, FIFO_Data_Out=         x
+                  15|RW=0, Data_IN=         8, FIFO_Data_Out=         x
+                  17|RW=0, Data_IN=         9, FIFO_Data_Out=         x
+                  19|RW=0, Data_IN=        10, FIFO_Data_Out=         x
+                  21|RW=1, Data_IN=        10, FIFO_Data_Out=         1
+                  23|RW=1, Data_IN=        10, FIFO_Data_Out=         2
+                  25|RW=1, Data_IN=        10, FIFO_Data_Out=         3
+                  27|RW=1, Data_IN=        10, FIFO_Data_Out=         4
+                  29|RW=1, Data_IN=        10, FIFO_Data_Out=         5
+                  31|RW=1, Data_IN=        10, FIFO_Data_Out=         6
+                  33|RW=1, Data_IN=        10, FIFO_Data_Out=         7
+                  35|RW=1, Data_IN=        10, FIFO_Data_Out=         8
+                  37|RW=1, Data_IN=        10, FIFO_Data_Out=         9
+                  39|RW=1, Data_IN=        10, FIFO_Data_Out=        10
+```
 
 ### GTKWave Representation:
 ![GTKWave Representaion of 10 numbers](screenshots/fifo_gtk_10.png)
 
 ### Writing 17 numbers to queue and reading them:
-![Writing 17 numbers to queue and reading them](screenshots/fifo_17.png)
+```
+$ ./fifo.out 
+VCD info: dumpfile fifo.vcd opened for output.
+                  0|RW=x, Data_IN=         x, FIFO_Data_Out=         x
+                  1|RW=0, Data_IN=         1, FIFO_Data_Out=         x
+                  3|RW=0, Data_IN=         2, FIFO_Data_Out=         x
+                  5|RW=0, Data_IN=         3, FIFO_Data_Out=         x
+                  7|RW=0, Data_IN=         4, FIFO_Data_Out=         x
+                  9|RW=0, Data_IN=         5, FIFO_Data_Out=         x
+                  11|RW=0, Data_IN=         6, FIFO_Data_Out=         x
+                  13|RW=0, Data_IN=         7, FIFO_Data_Out=         x
+                  15|RW=0, Data_IN=         8, FIFO_Data_Out=         x
+                  17|RW=0, Data_IN=         9, FIFO_Data_Out=         x
+                  19|RW=0, Data_IN=        10, FIFO_Data_Out=         x
+                  21|RW=0, Data_IN=        11, FIFO_Data_Out=         x
+                  23|RW=0, Data_IN=        12, FIFO_Data_Out=         x
+                  25|RW=0, Data_IN=        13, FIFO_Data_Out=         x
+                  27|RW=0, Data_IN=        14, FIFO_Data_Out=         x
+                  29|RW=0, Data_IN=        15, FIFO_Data_Out=         x
+Warning: one more empty slot in queue
+                  31|RW=0, Data_IN=        16, FIFO_Data_Out=         x
+Error: queue is full
+                  33|RW=0, Data_IN=        17, FIFO_Data_Out=         x
+                  35|RW=1, Data_IN=        17, FIFO_Data_Out=         1
+                  37|RW=1, Data_IN=        17, FIFO_Data_Out=         2
+                  39|RW=1, Data_IN=        17, FIFO_Data_Out=         3
+                  41|RW=1, Data_IN=        17, FIFO_Data_Out=         4
+                  43|RW=1, Data_IN=        17, FIFO_Data_Out=         5
+                  45|RW=1, Data_IN=        17, FIFO_Data_Out=         6
+                  47|RW=1, Data_IN=        17, FIFO_Data_Out=         7
+                  49|RW=1, Data_IN=        17, FIFO_Data_Out=         8
+                  51|RW=1, Data_IN=        17, FIFO_Data_Out=         9
+                  53|RW=1, Data_IN=        17, FIFO_Data_Out=        10
+                  55|RW=1, Data_IN=        17, FIFO_Data_Out=        11
+                  57|RW=1, Data_IN=        17, FIFO_Data_Out=        12
+                  59|RW=1, Data_IN=        17, FIFO_Data_Out=        13
+                  61|RW=1, Data_IN=        17, FIFO_Data_Out=        14
+                  63|RW=1, Data_IN=        17, FIFO_Data_Out=        15
+                  65|RW=1, Data_IN=        17, FIFO_Data_Out=        16
+Error: queue is empty
+
+```
 
 ### GTKWave Representation:
 ![GTKWave Representaion of 17 numbers](screenshots/fifo_gtk_17.png)
