@@ -80,36 +80,36 @@ VCD info: dumpfile fifo.vcd opened for output.
                   5|RW=0, Data_IN=         3, FIFO_Data_Out=         x
                   7|RW=0, Data_IN=         4, FIFO_Data_Out=         x
                   9|RW=0, Data_IN=         5, FIFO_Data_Out=         x
-                  11|RW=0, Data_IN=         6, FIFO_Data_Out=         x
-                  13|RW=0, Data_IN=         7, FIFO_Data_Out=         x
-                  15|RW=0, Data_IN=         8, FIFO_Data_Out=         x
-                  17|RW=0, Data_IN=         9, FIFO_Data_Out=         x
-                  19|RW=0, Data_IN=        10, FIFO_Data_Out=         x
-                  21|RW=0, Data_IN=        11, FIFO_Data_Out=         x
-                  23|RW=0, Data_IN=        12, FIFO_Data_Out=         x
-                  25|RW=0, Data_IN=        13, FIFO_Data_Out=         x
-                  27|RW=0, Data_IN=        14, FIFO_Data_Out=         x
-                  29|RW=0, Data_IN=        15, FIFO_Data_Out=         x
+                 11|RW=0, Data_IN=         6, FIFO_Data_Out=         x
+                 13|RW=0, Data_IN=         7, FIFO_Data_Out=         x
+                 15|RW=0, Data_IN=         8, FIFO_Data_Out=         x
+                 17|RW=0, Data_IN=         9, FIFO_Data_Out=         x
+                 19|RW=0, Data_IN=        10, FIFO_Data_Out=         x
+                 21|RW=0, Data_IN=        11, FIFO_Data_Out=         x
+                 23|RW=0, Data_IN=        12, FIFO_Data_Out=         x
+                 25|RW=0, Data_IN=        13, FIFO_Data_Out=         x
+                 27|RW=0, Data_IN=        14, FIFO_Data_Out=         x
+                 29|RW=0, Data_IN=        15, FIFO_Data_Out=         x
 Warning: one more empty slot in queue
-                  31|RW=0, Data_IN=        16, FIFO_Data_Out=         x
+                 31|RW=0, Data_IN=        16, FIFO_Data_Out=         x
 Error: queue is full
-                  33|RW=0, Data_IN=        17, FIFO_Data_Out=         x
-                  35|RW=1, Data_IN=        17, FIFO_Data_Out=         1
-                  37|RW=1, Data_IN=        17, FIFO_Data_Out=         2
-                  39|RW=1, Data_IN=        17, FIFO_Data_Out=         3
-                  41|RW=1, Data_IN=        17, FIFO_Data_Out=         4
-                  43|RW=1, Data_IN=        17, FIFO_Data_Out=         5
-                  45|RW=1, Data_IN=        17, FIFO_Data_Out=         6
-                  47|RW=1, Data_IN=        17, FIFO_Data_Out=         7
-                  49|RW=1, Data_IN=        17, FIFO_Data_Out=         8
-                  51|RW=1, Data_IN=        17, FIFO_Data_Out=         9
-                  53|RW=1, Data_IN=        17, FIFO_Data_Out=        10
-                  55|RW=1, Data_IN=        17, FIFO_Data_Out=        11
-                  57|RW=1, Data_IN=        17, FIFO_Data_Out=        12
-                  59|RW=1, Data_IN=        17, FIFO_Data_Out=        13
-                  61|RW=1, Data_IN=        17, FIFO_Data_Out=        14
-                  63|RW=1, Data_IN=        17, FIFO_Data_Out=        15
-                  65|RW=1, Data_IN=        17, FIFO_Data_Out=        16
+                 33|RW=0, Data_IN=        17, FIFO_Data_Out=         x
+                 35|RW=1, Data_IN=        17, FIFO_Data_Out=         1
+                 37|RW=1, Data_IN=        17, FIFO_Data_Out=         2
+                 39|RW=1, Data_IN=        17, FIFO_Data_Out=         3
+                 41|RW=1, Data_IN=        17, FIFO_Data_Out=         4
+                 43|RW=1, Data_IN=        17, FIFO_Data_Out=         5
+                 45|RW=1, Data_IN=        17, FIFO_Data_Out=         6
+                 47|RW=1, Data_IN=        17, FIFO_Data_Out=         7
+                 49|RW=1, Data_IN=        17, FIFO_Data_Out=         8
+                 51|RW=1, Data_IN=        17, FIFO_Data_Out=         9
+                 53|RW=1, Data_IN=        17, FIFO_Data_Out=        10
+                 55|RW=1, Data_IN=        17, FIFO_Data_Out=        11
+                 57|RW=1, Data_IN=        17, FIFO_Data_Out=        12
+                 59|RW=1, Data_IN=        17, FIFO_Data_Out=        13
+                 61|RW=1, Data_IN=        17, FIFO_Data_Out=        14
+                 63|RW=1, Data_IN=        17, FIFO_Data_Out=        15
+                 65|RW=1, Data_IN=        17, FIFO_Data_Out=        16
 Error: queue is empty
 
 ```
