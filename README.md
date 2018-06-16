@@ -15,12 +15,12 @@ This is a simple FIFO queue implementation in Verilog for the Modern Computer Ar
 ## Explanation
 
 The project consists of 2 modules, the fifo module, which contains the implementation of the FIFO queue and the top module,
-which uses the fifo module, in order to confirm that the fifo module works correctly.
+which uses the fifo module, in order to confirm that it works correctly.
 
 ### Module fifo:
 Takes as inputs the signals:
 1. clk: used in order to execute the module in every positive pulse of the clock.
-2. Cen: activates/deactivates the module.
+2. Cen: enables/disables the module.
 3. Reset: resets the queue.
 4. Data_IN: input data to store in queue.
 5. FIFO_Read_Write: control of read/write operation from/to queue.
