@@ -1,4 +1,4 @@
-# FIFO
+# FIFO_HUA-MCA-2016-2017
 This is a simple FIFO queue implementation in Verilog for the Modern Computer Architectures course (2016-2017) of Harokopio University.
 
 ## Prerequisites
@@ -6,8 +6,8 @@ This is a simple FIFO queue implementation in Verilog for the Modern Computer Ar
 2. [__Optional__] [GTKWave](http://gtkwave.sourceforge.net/) for visual representation. Install using `apt-get install gtkwave`
 
 ## To execute this FIFO implementation you have to:
-1. Clone this repository using: `https://github.com/galexandridis/fifo.git`
-2. Move to the folder of the repository `cd fifo`
+1. Clone this repository using: `https://github.com/galexandridis/FIFO_HUA-MCA-2016-2017.git`
+2. Move to the folder of the repository `cd FIFO_HUA-MCA-2016-2017`
 3. Compile using `iverilog fifo.v -o fifo.out`
 4. Execute using `./fifo.out`
 5. To see the diagrams produced use `gtkwave fifo.vcd`
