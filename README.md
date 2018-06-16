@@ -37,3 +37,17 @@ Apart from the signals mentioned above, some variables also used are:
 3. ptr_r: pointer that holds the position for the read operation from queue. After each read operation it's incremented by 1, in order to show the next position to read. When it reaches the last slot it's starts again from 0.
 4. ptr_w: pointer that keeps the write position in the queue (same as ptr_r)
 5. cntr: counter of slots used, incremented by 1 in every write operation and decremented by 1 in every read operation, max value: 16, min value: 0
+
+## Results of execution
+
+### Writing 10 numbers to queue and reading them:
+![Writing 10 numbers to queue and reading them](screenshots/fifo_10.png)
+
+### GTKWave Representation:
+![GTKWave Representaion of 10 numbers](screenshots/fifo_gtk_10.png)
+
+### Writing 17 numbers to queue and reading them:
+![Writing 17 numbers to queue and reading them](screenshots/fifo_17.png)
+
+### GTKWave Representation:
+![GTKWave Representaion of 17 numbers](screenshots/fifo_gtk_17.png)
